@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meu site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/custon.css">
+  </head>
+  <body>
+    <!--Menu principal-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand text-primary" href="#"><strong>WebPages.</strong></a>
+          <!--Menu Sanduiche-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav nav-tabs">
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#QuemSomos">Quem somos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#Planejamento">Planejamento</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#Contato">Contato</a>
+              </li>
+            </ul>
+            <div class="d-flex" >
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Fale Conosco
+                  </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">WebPages</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Email:</label>
+                  <input type="text" class="form-control" placeholder="Digite seu Email...." id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Duvida?</label>
+                  <textarea class="form-control" placeholder="Envie sua duvida........" id="message-text"></textarea>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+      <!--Banner principal-->
+      <header class="container my-4">
+        <div class="row">
+            <div class="col-12 col-lg-6 pt-5">
+                <h1 class="text-center text-md-start">Sua empresa <span class="text-primary" style="font-weight: bolder;">DiGital</span></h1>
+                <p class="lead text-muted text-center text-md-start">Não fique de fora do mundo digital</p>
+
+                <div class="mt-5 mb-5">
+                    <button class="btn btn-outline-primary btn-lg mb-3 ">Saiba mais!</button>
+                    <button class="btn btn-primary btn-lg mb-3">Conheça nossos clientes.</button>
+                </div>
+                
+            </div>
+            <div class="col-12 col-lg-6 p">
+                <img src="https://cdn.pixabay.com/photo/2016/04/21/13/27/computer-1343393_960_720.jpg" alt="imagem" class="img-fluid">
+            </div>
+        </div>
+      </header>
+      <!--Cards-->
+      <div class="container">
+        <div class="row ">
+            <div class="col-lg-4 col-xs-12">
+                <div class="card border-0">
+                    <i class="bi bi-toggles text-primary ms-3" style="font-size:3rem;">
+                        <div class="spinner-grow text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                          </div>
+                    </i>
+                    <div class="card-body bg-corpo">
+                      <h5 class="card-title">Planejamento</h5>
+                      <p class="card-text">Definimos a partir de um planejamento detalhado onde levantamos as reais necessidades da empresa e seus requisitos técnicos e funcionais.</p>
+                      <a href="#" class="btn btn-outline-primary">Saiba-mais</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-xs-12">
+                <div class="card border-0">
+                    <i class="bi bi-clipboard-data-fill text-secondary ms-3" style="font-size:3rem;">
+                        <div class="spinner-grow text-secondary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                          </div>
+                    </i>
+                    <div class="card-body bg-corpo">
+                      <h5 class="card-title">Comprometimento</h5>
+                      <p class="card-text">Somos especialistas em desenvolver soluções para web, unindo tecnologia com diferentes estratégias de marketing digital, essa união resulta em projetos dinâmicos, que atendem as necessidades de nossos clientes.</p>
+                      <a href="#" class="btn btn-outline-primary">Saiba-mais</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-xs-12">
+                <div class="card border-0">
+                    <i class="bi bi-code-slash text-danger ms-3" style="font-size:3rem;">
+                        <div class="spinner-grow text-bg-danger" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                          </div>
+                    </i>
+                    <div class="card-body bg-corpo">
+                      <h5 class="card-title"> Skills</h5>
+                      <ul>
+                        <li><strong>Front-end</strong><i class="bi bi-arrow-right-short"></i> Reactjs / Bootstrap5</li>
+                        <li><strong>Back-end</strong><i class="bi bi-arrow-right-short"></i> Nodejs / PHP</li>
+                        <li><strong>Mobile</strong><i class="bi bi-arrow-right-short"></i> React-Native / flutter</li>
+                      </ul>
+                      <a href="#" class="btn btn-outline-primary">Saiba-mais</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+      </div>
+      <!--Quem Somos-->
+      <div class="container text-center mt-5" id="QuemSomos">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="QS">Quem somos</h2>
+            </div>
+            <div class="col-lg-6 col-sm-12 carrossel">
+               <img src="https://cdn.pixabay.com/photo/2016/03/09/13/58/online-marketing-1246457_960_720.jpg" class="img-fluid" alt=""> 
+            </div>
+            <div class="col-lg-6 col-sm-12  conteudo">
+              <h3 class="sobrenos">WebPages</h3>
+              <p>Empresa especializada em Marketing Digital e criação de sistemas,Aplicativos & WebSites.</p>
+              <p>
+                Somos especialistas em desenvolver soluções para web, unindo tecnologia com diferentes estratégias de marketing digital, essa união resulta em projetos dinâmicos, que atendem as necessidades de nossos clientes, e facilitam o dia a dia dos usuários finais.
+                
+                Utilizamos de diferentes tecnologias e linguagens para criar soluções sob medida, para os mais variados tipos de projetos, sejam sistemas empresarias (como ERP’s ou CRM’s), ou soluções como portais, websites, hotsites, intranet, loja virtual, sistemas web entre outras.
+                
+                Para as empresas e o comércio, a internet tornou-se um ambiente cada vez mais promissor, com oportunidades para todos os tipos de produtos e serviços, e é nessa frente em que atuamos, em desenvolver soluções web inovadoras que liguem a sua empresa com o público online.</p>
+            </div>
+        </div>
+      </div>
+
+      <!--Tecnologias-->
+      <div class="container text-center" id="Planejamento">
+        <div class="row tecnologias">
+          <div class="col-lg-6">
+            <h1 class="planejamento">Planejamento</h1>
+              <p>Em cada novo projeto nós desenvolvemos soluções personalizadas, definidas a partir de um planejamento detalhado onde levantamos as reais necessidades da empresa e seus requisitos técnicos e funcionais, assim conhecemos os desejos da organização com o projeto e quais são suas expectativas. Temos como meta criar soluções que tragam resultados reais, e que façam parte da rotina da empresa trazendo novos clientes, visibilidade e reconhecimento no mercado.
+
+                A presença online com um website é o passo inicial para alcançar seus clientes no mundo digital, e alinhado as estratégias corretas de marketing digital o website se torna uma poderosa ferramenta de vendas, e um canal de comunicação direto com pessoas interessadas em seu produto ou serviço.
+                
+                Dentre as diferentes soluções que produzimos para web, nós também atuamos no desenvolvemos de sistemas on-demand para atender as necessidades das organizações. Saiba mais sobre o  desenvolvimento de sistemas web e suas aplicações.</p>
+          </div>
+          <div class="col-6">
+            <img src="assets/servico-desenvolvimento-webl1.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+
+      <!--Contato-->
+        <div class="container" id="Contato">
+          <div class="row">
+            <div class="col-6">
+              <img src="assets/contato.jpg" class="img-fluid contato" alt="contato">
+            </div>
+            <div class="col-6 mt-5">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Dúvidas</label>
+                <textarea class="form-control" placeholder="Dúvidas...." id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <button type="button" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </div>
+      <!--RodaPé-->
+      <footer class="mt-5 bg-secondary text-center text-light p-3" >
+        <p>Todos os direitos reservados!</p>
+      </footer>
+      
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>

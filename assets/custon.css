@@ -1,0 +1,50 @@
+*{
+    box-sizing:border-box ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*cards*/
+.bg-corpo{
+    transition: all ease 1.5s;
+    box-shadow: 2px 12px 23px #00008B;
+}
+.bg-corpo:hover{
+    background: rgba(25,25,112);
+    border-radius: 10px;
+    color: #FFF;
+}
+.bg-corpo:hover a{
+    color: #FFF;
+}
+
+/*Formatando Quem somos*/
+
+.QS{
+    font-weight: bolder;
+    border-bottom:1px solid #050505;
+    margin-bottom: 50px;
+}
+
+.sobrenos{
+    margin-top: 10px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px #888;
+    
+}
+.tecnologias{
+    margin-top: 50px;
+    border-top:1px solid #050505;
+    display: flex;
+    border-bottom: 1px solid #050505;
+}
+.planejamento{
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 3px 3px #888;
+    font-weight: bolder;
+    
+}
+
+/*Contato*/
+.contato{
+    margin-top: 50px;
+}
